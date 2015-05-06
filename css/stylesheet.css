@@ -1,11 +1,6 @@
 body {
- background: rgb(0,0,0); /* Old browsers */
-  background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(69,72,77,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(69,72,77,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* IE10+ */
-  background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* W3C */
+ background: rgb(0,0,0);
+  background: -webkit-linear-gradient(left,  rgba(15,15,15,0.2) 0%, rgba(69,72,77,1) 100%);
 
 
 }
@@ -16,12 +11,13 @@ aside {
   top:0;
   right:0
   bottom:0;
-  background-color: #111111;
+  background-color: rgb(30,30,30);
   float:left;
 }
 .container {
   float: left;
 }
+
 aside img {
   position: relative;
   top: 20%;
@@ -40,9 +36,7 @@ header h1 {
   border: 2px solid rgba(191, 191, 191, 0.6);
   margin: 1%;
   padding: 1%;
- -webkit-box-shadow: 1px 0px 6px 3px rgba(245,242,245,1);
--moz-box-shadow: 1px 0px 6px 3px rgba(245,242,245,1);
-box-shadow: 1px 0px 6px 3px rgba(245,242,245,1);
+  box-shadow: 0px 0px 7px 3px rgba(125,124,125,1);
 
 
 }
@@ -54,9 +48,7 @@ nav {
   width: 95.6%;
   border: 2px solid rgba(191, 191, 191, 0.6);
   background-color: rgb(250,250,250);
-  -webkit-box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
-  -moz-box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
-  box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
+  box-shadow: 0px 0px 7px 3px rgba(125,124,125,1);
 
 
 }
@@ -86,15 +78,18 @@ article {
   width: 50%;
 }
 article p {
-  font-family: ‘Courier New’, Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-indent: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(34, 34, 38, 0.7);
 }
 article div h1 {
   font-family: 'Inconsolata';
   font-size:35px;
   font-weight: bold;
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
   text-align: center;
 }
 article div {
@@ -104,9 +99,7 @@ article div {
   line-height: 1.5em;
   border: 2px solid rgba(191, 191, 191, 0.6);
   padding: 2%;
-  -webkit-box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
-  -moz-box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
-  box-shadow: 1px 1px 6px 2px rgba(245,242,245,1);
+  box-shadow: 0px 0px 7px 3px rgba(125,124,125,1);
 }
 
 .spirit-animal img {
